@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-export default async function conectarAoBanco(stringConexao) {
+export  async function conectarAoBanco(stringConexao) {
   let mongoClient;
 
   try {
