@@ -1,0 +1,14 @@
+
+
+### Criar novo post
+POST http://localhost:3000/posts
+content-type: application/json
+
+{
+    "descricao": "Gato fazendo um post",
+    "imageUrl": "https://placecats.com/300/200",
+    "imageAlt": "A descrição da imagem"
+}
+
+### Listar posts
+GET http://localhost:3000/posts
