@@ -48,6 +48,7 @@ app.get('/posts', (req, res) => {
 });
 
 
+
 function buscarPostPorID(id){
   return posts.find(post => post.id === parseInt(id));
 }
@@ -76,4 +77,10 @@ app.get('/posts/:id', (req, res) => {
  * Site com imagens de gatos para teste:
  *
  * @see https://placecats.com/300/200
+ */
+
+/**
+ * Banco de dados
+ *
+ * MongoDB Atlas
  */

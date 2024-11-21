@@ -17,3 +17,4 @@ benchmarks/graphs
 
 # Environment
 chave-api.txt
+.env
